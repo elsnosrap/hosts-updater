@@ -3,6 +3,8 @@ This is a shell script which updates your local ```/etc/hosts``` file with the h
 
 This script can be configured to run on a scheduled basis with ```cron```.  If you do this, I recommend only scheduling it once or twice a week.  The file on someonewhocares.org doesn't change that often, and it's just common courtesy to not flood the server with requests.
 
+This branch integrates with the [host-switcher](https://code.google.com/p/host-switcher/) application.
+
 ###Major thanks to Dan Pollack, the owner of the site, and all the contributors to the file itself.
 
 # Using the script
